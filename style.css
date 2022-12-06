@@ -1,0 +1,59 @@
+.calculator {
+    max-width: 500px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 150px 1px #acc0c2;
+    background-color: #efefef;
+}
+
+.display {
+    text-align: right;
+    height: 100px;
+    line-height: 100px;
+    padding: 20px 10px;
+    font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #d2d9da;
+    border-left: 1px solid #d2d9da;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #ffffff;
+}
+
+.buttons > div {
+    border-top: 1px solid #d2d9da;
+    border-right: 1px solid #d2d9da;
+}
+
+.gitHub {
+    color: #000;
+    text-decoration: none;
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.gitHub:hover {
+    background-color: #b5bebe;
+    transition: .3s ease-in-out;
+}
+
+.button {
+    border: 1px solid #d2d9da;
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #b5bebe;
+    transition: .3s ease-in-out;
+}
+
+#equal {
+    background-color: #5fb2d0;
+    color: #000;
+}
